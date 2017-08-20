@@ -1,0 +1,399 @@
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #333 url('//cdnjs.cloudflare.com/ajax/libs/file-uploader/3.7.0/processing.gif') no-repeat center center;
+}
+
+#before-load {
+    position: fixed; /*фиксированное положение блока*/
+    left: 0; /*положение элемента слева*/
+    top: 0; /*положение элемента сверху*/
+    right: 0; /*положение элемента справа*/
+    bottom: 0; /*положение элемента снизу*/
+    background: #fff; /*цвет заднего фона блока*/
+    z-index: 1001; /*располагаем его над всеми элементами на странице*/
+}
+#before-load i {
+    font-size: 70px; /*размер иконки*/
+    position: absolute; /*положение абсолютное, позиционируется относительно его ближайшего предка*/
+    left: 50%; /*слева 50% от ширины родительского блока*/
+    top: 50%; /*сверху 50% от высоты родительского блока*/
+    margin: -35px 0 0 -35px; /*смещение иконки, чтобы она располагалась по центру*/
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: 'Lobster', cursive;
+    background-color: #fafafa;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+a {
+    color: #fac200;
+}
+
+a:hover {
+    opacity: 0.5;
+    color: #fac200;
+}
+
+.autoSizeSection{
+    position: absolute;
+    /*z-index: 1;*/
+    width: 100%;
+    background-size: cover;
+    background-image: url("../img/26325.jpg");
+}
+
+.fonOpacity {
+    position: absolute;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.head{
+    font-size: 24px;
+    color: whitesmoke;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    /*z-index: 2;*/
+
+}
+
+.headTXT {
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+.headTXT:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 45px;
+    text-decoration: underline;
+    color: yellow;
+}
+
+.logo {
+    width: 82px;
+    height: 84px;
+    margin-top: 20px;
+    margin-left: 10%;
+    background-size: cover;
+    background-image: url("../img/logo.png");
+}
+
+.logo:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.headCenterText {
+    position: absolute;
+    /*font-size: 50px;*/
+    color: whitesmoke;
+    margin-top: calc(50% - 24%);
+    margin-left: calc(50% - 7%);
+}
+
+.headCenterText:hover {
+    transition: 0.7s;
+    color: yellow;
+}
+
+.historyBlock {
+    /*width: 1200px;*/
+    /*margin-left: calc(50% - 750px);*/
+    position: absolute;
+}
+
+.yearBlock {
+    border: 4px solid white;
+    background-color: white;
+    color: #323232;
+    font-size: 30px;
+    cursor: pointer;
+    width: 95%;
+    height: 100%;
+}
+
+.yearBlock:hover {
+    border: 4px solid #fac200;
+    /*background-color: #fac200;*/
+}
+
+.yearBlock:active {
+    border: 4px solid #fac200;
+    /*background-color: #fac200;*/
+}
+
+.active {
+    border: 5px solid #fac200;
+}
+
+.actUZ {
+    transition: 0.5s;
+    padding-top: calc(50% - 40px);
+    padding-left: calc(50% - 70px);
+    color: #fac200;
+}
+
+.yearBlockText {
+    transition: 0.5s;
+    padding-top: calc(50% - 55px);
+    padding-left: calc(50% - 30px);
+}
+
+.yearBlockText:hover {
+    color: #fac200;
+    transition: 0.5s;
+    text-decoration: underline;
+    padding-top: 25%;
+
+}
+
+.yearBlockTextActive {
+    color: #fac200;
+    transition: 0.5s;
+    text-decoration: none;
+    padding-top: calc(50% - 55px);
+}
+
+.yearBlockTextUz:hover {
+    transition: 0.5s;
+    padding-top: calc(50% - 40px);
+    padding-left: calc(50% - 70px);
+    color: #fac200;
+    /*text-decoration: underline #eeeeee;*/
+}
+
+
+
+.jssorl-004-double-tail-spin img {
+    animation-name: jssorl-004-double-tail-spin;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-004-double-tail-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#jssor_1 {
+    position:relative;
+    margin:0 auto;
+    top:0px;
+    left:0px;
+    width:1800px;
+    height:125px;
+    overflow:hidden;
+    visibility:hidden;
+}
+
+.jssorl-004-double-tail-spin{
+    position:absolute;
+    top:0px;
+    left:0px;
+    text-align:center;
+    background-color:rgba(0,0,0,0.7);
+}
+
+.slaider {
+    cursor:default;
+    position: relative;
+    top:0px;
+    left:0px;
+    width:1800px;
+    height:125px;
+    overflow:hidden;
+}
+
+.jssora051-1 {
+    opacity: 1;
+    background-color: #323232;
+    width: 25px;
+    height: 125px;
+    top: 0;
+    left: 0;
+}
+
+.jssora051-2 {
+    opacity: 1;
+    background-color: #323232;
+    width: 25px;
+    height: 125px;
+    top: 0;
+    right: 0;
+}
+
+.jssora051View1 {
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.jssora051View2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.jssorb051 .i {position:absolute;cursor:pointer;}
+.jssorb051 .i .b {fill:#fff;fill-opacity:0.5;stroke:#000;stroke-width:400;stroke-miterlimit:10;stroke-opacity:0.5;}
+.jssorb051 .i:hover .b {fill-opacity:.7;}
+.jssorb051 .iav .b {fill-opacity: 1;}
+.jssorb051 .i.idn {opacity:.3;}
+
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+#yearNow {
+    width: 100%;
+    position: absolute;
+}
+
+.yearNowRect{
+    margin-top: 70px;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fac200;
+}
+
+.yearNowTr {
+    transition: 1s;
+    /*margin-top: 1000px;*/
+    /*margin-top: 1000px;*/
+    position: absolute;
+    border: 40px solid transparent;
+    border-top: 60px solid #fac200;
+}
+
+.informationHistoryBlock {
+    /*opacity: 0.2;*/
+    width: 100%;
+    height: auto;
+    position: absolute;
+    padding-bottom: 3%;
+    /*background-color: blue;*/
+}
+
+.informationHistoryBlockText {
+    color: #323232;
+    border: solid 2px #fac200;
+    /*border-top: 0;*/
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0);
+}
+
+.informationHistoryBlockTextHead {
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 40px;
+}
+
+.informationHistoryBlockTextT {
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    font-family: 'Jura', cursive;
+    font-size: 20px;
+}
+
+footer {
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    color: whitesmoke;
+    /*font-size: 13px;*/
+    width: 100%;
+    height: 18%;
+    margin-top: 100%;
+    background-color: #323232;
+}
+
+.fotterLink {
+    margin-top: 3.2%;
+}
+
+.footerUsed {
+    color: whitesmoke;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.fotterCop {
+    color: whitesmoke;
+    margin-left:21%;
+    margin-top: 7.3%;
+    font-size: 12px;
+}
+
+.footerCont {
+    color: whitesmoke;
+    margin-left:29%;
+    margin-top: 2%;
+}
+
+.footerContTXT {
+    color: whitesmoke;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.runDown {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: calc(50% - 15px);
+}
+
+.kolo {
+    width: 100%;
+    height: 100%;
+    background-color: #fac200;
+    border-radius: 100%;
+}
+
+.tr {
+    transition: 1s;
+    margin-top: 0px;
+    position: absolute;
+    border: 15px solid transparent;
+    border-top: 20px solid white;
+}

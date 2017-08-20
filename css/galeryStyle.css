@@ -1,0 +1,150 @@
+body {
+    width: 100%;
+    height: 1000px;
+    font-family: 'Lobster', cursive;
+    /*background-color: #fac200;*/
+}
+
+.parBlock {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.autoSizeSection{
+    position: absolute;
+    width: 100%;
+}
+
+.fonOpacity {
+    position: absolute;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.head{
+    z-index: 2;
+    font-size: 24px;
+    color: whitesmoke;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+
+}
+
+.headTXT {
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+.headTXT:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 45px;
+    text-decoration: underline;
+    color: yellow;
+}
+
+.logo {
+    width: 82px;
+    height: 84px;
+    margin-top: 20px;
+    margin-left: 10%;
+    background-size: cover;
+    background-image: url("../img/logo.png");
+}
+
+.logo:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.headCenterText {
+    position: absolute;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-top: calc(25% - 10%);
+    margin-left: calc(50% - 37%);
+}
+
+.headCenterText:hover {
+    transition: 0.7s;
+    color: yellow;
+}
+
+.ImgBlock {
+    width: 100%;
+    height: 500px;
+    margin-top: 2.5%;
+    /*background-color: #00acc1;*/
+    /*border-top: 1px dashed black;*/
+    /*border-bottom: 1px solid black;*/
+}
+
+.GalerrySect {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.photo {
+    /*width: 100%;*/
+    height: 100%;
+}
+
+.textBlock {
+
+}
+
+.about {
+    font-size: 50px;
+    padding-left: calc(50%  - 50px);
+    padding-top: 25%;
+    /*background-color: #fac200;*/
+}
+
+.text{
+    font-family: 'Jura', cursive;
+    font-size: 20px;
+    padding-left: calc(50%  - 80px);
+    padding-top: calc(10% - 50px);
+    /*background-color: #fac200;*/
+}
+
+.photo {
+    height: 500px;
+    background-size: cover;
+    background-image: url("../img/26325.jpg");
+}
+
+.line {
+    width: 97%;
+    height: 100%;
+    background-color: black;
+}
+
+.imHFooter {
+
+}
+
+.fonOpacityFooter {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.parBlockInFooter {
+    width: 100%;
+    height: 100%;
+    /*background-color: #fac200;*/
+}
+
+.ParSect {
+    position: absolute;
+    width: 100%;
+    /*background-color: #00C853;*/
+}

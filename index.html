@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UZCHRONOLOGY</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="steelesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Jura|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+</head>
+<body onload="autoSizeIndex()" onresize="autoSizeIndex()">
+<div id="autoSizeSectionID" class="autoSizeSection">
+    <div class="fonOpacity"></div>
+    <div class="head container-fluid">
+        <div class="row">
+            <div class="logo col-md-2 col-sm-2 animated bounce" onclick="location.href='index.html'"></div>
+            <div class="headTXT col-md-1 col-sm-1 col-md-offset-7 col-sm-offset-7" onclick="location.href='galery.html'">Галерея</div>
+            <div class="headTXT col-md-1 col-sm-1" onclick="location.href='aboutUS.html'">Про сайт</div>
+        </div>
+    </div>
+    <p class="headCenterText">ВЕЛИКА ІСТОРІЯ МАЛОГО МІСТА</p>
+    <div class="runDown" onclick="scrollOn()">
+        <div class="kolo">
+            <div class="tr"></div>
+        </div>
+    </div>
+</div>
+<div class="historyBlock">
+    <div id="jssor_1">
+        <div data-u="slides" class="slaider">
+            <div>
+                <div class="yearBlock active waves-effect waves-yellow" onclick="mouseOnYear(this, 1)">
+                    <p class="yearBlockText actUZ" style="padding-left: 13%">
+                        УЖГОРОД
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="yearBlock waves-effect waves-yellow" onclick="mouseOnYear(this, 2)">
+                    <p class="yearBlockText">
+                        1900
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="yearBlock waves-effect waves-yellow" onclick="mouseOnYear(this, 3)">
+                    <p class="yearBlockText">
+                        1900
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="yearBlock waves-effect waves-yellow" onclick="mouseOnYear(this, 4)">
+                    <p class="yearBlockText">
+                        1900
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="yearBlock waves-effect waves-yellow" onclick="mouseOnYear(this, 5)">
+                    <p class="yearBlockText">
+                        1900
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="yearBlock waves-effect waves-yellow" onclick="mouseOnYear(this, 6)">
+                    <p class="yearBlockText">
+                        1900
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="yearBlock waves-effect waves-yellow" onclick="mouseOnYear(this, 7)">
+                    <p class="yearBlockText">
+                        1900
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="yearBlock waves-effect waves-yellow" onclick="mouseOnYear(this, 8)">
+                    <p class="yearBlockText">
+                        1900
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="yearBlock waves-effect waves-yellow" onclick="mouseOnYear(this, 9)">
+                    <p class="yearBlockText">
+                        1900
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="yearBlock waves-effect waves-yellow" onclick="mouseOnYear(this, 10)">
+                    <p class="yearBlockText">
+                        1900
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="yearBlock waves-effect waves-yellow" onclick="mouseOnYear(this, 11)">
+                    <p class="yearBlockText">
+                        1900
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="yearBlock waves-effect waves-yellow" onclick="mouseOnYear(this, 12)">
+                    <p class="yearBlockText">
+                        1900
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora051 jssora051-1" data-autocenter="2" data-scale="0.75" data-scale-left="0.75" onclick="DoActiveArrow(1)">
+            <svg viewbox="0 0 16000 16000" class="jssora051View1">
+                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora051 jssora051-2" data-autocenter="2" data-scale="0.75" data-scale-right="0.75" onclick="DoActiveArrow(0)">
+            <svg viewbox="0 0 16000 16000" class="jssora051View2">
+                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+            </svg>
+        </div>
+    </div>
+</div>
+
+<div id="yearNow">
+    <div class="yearNowTr">
+    </div>
+    <div class="yearNowRect">
+
+    </div>
+</div>
+
+<div class="informationHistoryBlock container-fluid">
+    <div class="row">
+        <div class="col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3">
+            <div class="informationHistoryBlockText">
+                <p class="informationHistoryBlockTextHead">
+                    INFO INFO INFO INFO INFO INFO
+                </p>
+                <p class="informationHistoryBlockTextT">
+                    текст текст text texttext texttext texttext texttext texttext texttext texttext text
+                    text textvtext texttext texttext texttext text
+                    text texttext texttext text text text text texttext texttext texttext texttext texttext texttext texttext text
+                    text textvtext texttext texttext texttext text
+                    text texttext texttext text text text text texttext texttext texttext texttext texttext texttext texttext text
+                    text textvtext texttext texttext texttext text
+                    text texttext texttext text
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-xs-2 fotterLink">
+                <pre class="footerUsed">      Використнаі технології та література</pre>
+                <a href="http://www.jssor.com">www.jssor.com</a>
+                <a href="http://jqueryfordesigners.com">jqueryfordesigners.com</a>
+                <a href="http://getbootstrap.com"> getbootstrap.com</a>
+            </div>
+            <div class="col-md-1 col-xs-1 col-md-offset-2 col-xs-offset-1 fotterCop">
+                <p class="footerCopTxt">Copywriting ©2017</p>
+            </div>
+            <div class="col-md-2 col-xs-2 col-md-offset-3 col-xs-offset-2 footerCont">
+                <pre class="footerContTXT">Контакти</pre>
+                <a style="-moz-user-select: text;-webkit-user-select: text;">Email: stanislavbaraniuk@gmail.com</a>
+                <a style="-moz-user-select: text;-webkit-user-select: text;">Телефон: +380 99 7747 661</a>
+                <a href="https://www.facebook.com/profile.php?id=100008316161536" style="-moz-user-select: text;-webkit-user-select: text;">www.facebook.com</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="js/mainJS.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/slaider.js"></script>
+<script src="js/history.js"></script>
+<script src="js/jssor.slider-25.0.7.min.js" type="text/javascript"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script src="js/materialize.min.js"></script>
+</body>
+</html>
+
+
+<script type="text/javascript">jssor_1_slider_init();</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    height: auto;
+    background-color: #fac200;
+}
+
+.about {
+    position: absolute;
+    width: 100%;
+    height: 2000px;
+}
+
+.logo {
+    position: absolute;
+    margin-left: calc(50% - 20%);
+    width: 40%;
+    height: 18%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../img/UZchronology.png");
+}
+
+.aboutText {
+
+}
